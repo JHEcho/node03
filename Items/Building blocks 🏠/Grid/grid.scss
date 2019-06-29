@@ -1,0 +1,21 @@
+// Import Bootstrap Grid
+$enable-flex: true;
+$enable-grid-classes: true;
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/grid';
+
+// Deafult Styles
+.grid-default-style {
+  background: #00ffd4;
+  color: white;
+  // Column Styles
+  .col-3 {
+    border-right: 2px solid #fc1472;
+  }
+  .col-2 {
+    border-right: 2px solid #fc1472;
+  }
+}

@@ -1,0 +1,62 @@
+/**
+ *  Default Fonts
+ */
+@font-face {
+	font-family: 'AppleSDGothicNeo';
+	font-style: normal;
+	font-weight: 300;
+	src: url('assets/fonts/AppleSDGothicNeoUL/AppleSDGothicNeoUL.woff2') format('woff2'),
+	url('assets/fonts/AppleSDGothicNeoUL/AppleSDGothicNeoUL.woff') format('woff'),
+	url('assets/fonts/AppleSDGothicNeoUL/AppleSDGothicNeoUL.otf') format('opentype');
+}
+@font-face {
+	font-family: 'AppleSDGothicNeo';
+	font-style: normal;
+	font-weight: 400;
+	src: url('assets/fonts/AppleSDGothicNeoR/AppleSDGothicNeoR.woff2') format('woff2'),
+	url('assets/fonts/AppleSDGothicNeoR/AppleSDGothicNeoR.woff') format('woff'),
+	url('assets/fonts/AppleSDGothicNeoR/AppleSDGothicNeoR.otf') format('opentype');
+}
+// @font-face {
+// 	font-family: 'AppleSDGothicNeo';
+// 	font-style: normal;
+// 	font-weight: 500;
+// 	src: url('assets/fonts/AppleSDGothicNeoM/AppleSDGothicNeoM.woff2') format('woff2'),
+// 	url('assets/fonts/AppleSDGothicNeoM/AppleSDGothicNeoM.woff') format('woff'),
+// 	url('assets/fonts/AppleSDGothicNeoM/AppleSDGothicNeoM.otf') format('opentype');
+// }
+@font-face {
+	font-family: 'AppleSDGothicNeo';
+	font-style: normal;
+	font-weight: 700;
+	src: url('assets/fonts/AppleSDGothicNeoB/AppleSDGothicNeoB.woff2') format('woff2'),
+	url('assets/fonts/AppleSDGothicNeoB/AppleSDGothicNeoB.woff') format('woff'),
+	url('assets/fonts/AppleSDGothicNeoB/AppleSDGothicNeoB.otf') format('opentype');
+}
+@font-face {
+	font-family: 'AppleSDGothicNeo';
+	font-style: normal;
+	font-weight: 900;
+	src: url('assets/fonts/AppleSDGothicNeoEB/AppleSDGothicNeoEB.woff2') format('woff2'),
+	url('assets/fonts/AppleSDGothicNeoEB/AppleSDGothicNeoEB.woff') format('woff'),
+	url('assets/fonts/AppleSDGothicNeoEB/AppleSDGothicNeoEB.otf') format('opentype');
+}
+
+
+/**
+ *	Squad Valley
+ */
+
+@font-face {
+  font-family: 'squad-valley';
+  src:  url('assets/fonts/squad-valley/squad-valley.eot?2pdcvd');
+  src:  url('assets/fonts/squad-valley/squad-valley.eot?2pdcvd#iefix') format('embedded-opentype'),
+    url('assets/fonts/squad-valley/squad-valley.ttf?2pdcvd') format('truetype'),
+    url('assets/fonts/squad-valley/squad-valley.woff?2pdcvd') format('woff'),
+    url('assets/fonts/squad-valley/squad-valley.svg?2pdcvd#squad-valley') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import 'sq-icon';
+

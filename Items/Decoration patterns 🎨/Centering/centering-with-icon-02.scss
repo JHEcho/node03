@@ -1,0 +1,24 @@
+.centering-with-icon-02 {
+  // centering icon & text
+  .with-text {
+    text-align: center;
+    .icon {
+      font-size: 35px;
+    }
+    p {
+      font-size: 80px;
+    }
+  }
+  // centering icon & img
+  .with-img {
+    margin-top: 100px;
+    text-align: center;
+    .icon {
+      font-size: 35px;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

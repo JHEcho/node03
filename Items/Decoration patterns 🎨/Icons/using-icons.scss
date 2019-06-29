@@ -1,0 +1,11 @@
+.using-icons-default-style {
+  background: #00ffd4;
+  padding: 15px 25px;
+  .chief-mate {
+    margin: 10px;
+    font-size: 30px;
+    &:before {
+      color: #8972e7;
+    }
+  }
+}

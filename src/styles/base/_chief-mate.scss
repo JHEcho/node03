@@ -1,0 +1,30 @@
+.chief-mate {
+/* use !important to prevent issues with browser extensions that change fonts */
+font-family: 'chief-mate' !important;
+speak: none;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+
+/* Better Font Rendering =========== */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.chief-mate-user:before {
+content: "\e904";
+}
+.chief-mate-bar-graph:before {
+content: "\e900";
+}
+.chief-mate-circular-graph:before {
+content: "\e901";
+}
+.chief-mate-github:before {
+content: "\e902";
+}
+.chief-mate-menu:before {
+content: "\e903";
+}

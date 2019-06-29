@@ -1,0 +1,28 @@
+.centering-with-icon-01 {
+  // centering icon & text
+  .with-text {
+    position: relative;
+    .icon {
+      font-size: 35px;
+      vertical-align: middle;
+    }
+    a {
+      font-size: 80px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  // centering icon & img
+  .with-img {
+    position: relative;
+    margin-top: 100px;
+    .icon {
+      font-size: 35px;
+      vertical-align: middle;
+    }
+    img {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}

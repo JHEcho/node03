@@ -1,0 +1,13 @@
+.section {
+  width: 375px;
+  height: 600px;
+  background: #fc1472;
+  // Centering Contents
+  .section-contents {
+    background: #6b1ccc;
+    color: white;
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}

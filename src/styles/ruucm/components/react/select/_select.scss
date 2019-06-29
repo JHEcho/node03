@@ -1,0 +1,47 @@
+// Custom Select
+.Select {
+  &.drop-down {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    margin-left: _rem(40);
+    cursor: pointer;
+    .Select-placeholder, .Select-value {
+      position: absolute;
+      font-size: _rem(18);
+    }
+    .Select-input {
+      width: _rem(160);
+      font-family: 'squad-valley' !important;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+  
+      /* Better Font Rendering =========== */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      cursor: pointer;
+      &:before {
+        content: "\e90d";
+        float: right;
+        margin-bottom: _rem(-20);
+        font-size: _rem(13.6);
+      }
+      input {
+        width: 100% !important;
+        height: _rem(40);
+        background: transparent;
+        outline: none;
+        border: none;
+        border-bottom: solid 1px #111126;
+        color : transparent;
+      }
+    }
+    .Select-clear-zone {
+      display: none;
+    }
+  }
+}

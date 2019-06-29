@@ -1,0 +1,30 @@
+#root {
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 10px 52px 0px rgba(16,32,209,1);
+    -moz-box-shadow: 0px 10px 52px 0px rgba(16,32,209,1);
+    box-shadow: 0px 10px 52px 0px rgba(16,32,209,1);
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+.home {
+    padding: 0 20px;
+}
+* {
+    font-family: 'NanumSquare';
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'NanumSquare';
+    font-weight: 700;
+}
+p, span {
+    font-family: 'NanumSquare';
+}
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    #root {
+        margin-top: 0;
+    }
+}

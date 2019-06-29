@@ -1,0 +1,47 @@
+/**
+ *  Default Fonts
+ */
+ @font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+    font-weight: 100;
+	src: url('../../assets/fonts/NanumSquare/NanumSquareLight.woff2') format('woff2'), url('../../assets/fonts/NanumSquare/NanumSquareLight.woff') format('woff'), url('../../assets/fonts/NanumSquare/NanumSquareLight.ttf') format('truetype'), url('../../assets/fonts/NanumSquare/NanumSquareLight.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../../assets/fonts/NanumSquare/NanumSquareRegular.woff2') format('woff2'), url('../../assets/fonts/NanumSquare/NanumSquareRegular.woff') format('woff'), url('../../assets/fonts/NanumSquare/NanumSquareRegular.ttf') format('truetype'), url('../../assets/fonts/NanumSquare/NanumSquareRegular.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../../assets/fonts/NanumSquare/NanumSquareBold.woff2') format('woff2'), url('../../assets/fonts/NanumSquare/NanumSquareBold.woff') format('woff'), url('../../assets/fonts/NanumSquare/NanumSquareBold.ttf') format('truetype'), url('../../assets/fonts/NanumSquare/NanumSquareBold.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../../assets/fonts/NanumSquare/NanumSquareExtraBold.woff2') format('woff2'), url('../../assets/fonts/NanumSquare/NanumSquareExtraBold.woff') format('woff'), url('../../assets/fonts/NanumSquare/NanumSquareExtraBold.ttf') format('truetype'), url('../../assets/fonts/NanumSquare/NanumSquareExtraBold.eot?#iefix') format('embedded-opentype');
+}
+
+
+/**
+ *	Icons
+ */
+@font-face {
+font-family: 'chief-mate';
+src:  url('../../assets/fonts/chief-mate.eot?55s73y');
+src:  url('../../assets/fonts/chief-mate.eot?55s73y#iefix') format('embedded-opentype'),
+    url('../../assets/fonts/chief-mate.ttf?55s73y') format('truetype'),
+    url('../../assets/fonts/chief-mate.woff?55s73y') format('woff'),
+    url('../../assets/fonts/chief-mate.svg?55s73y#chief-mate') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@import 'chief-mate';

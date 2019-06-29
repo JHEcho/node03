@@ -1,0 +1,22 @@
+@import '../../styles/base';
+
+.header {
+    padding: 0 20px;
+    .nav {
+        position: relative;
+        @include center-icon-a(35px, 35px);
+        padding: 60px 0;
+        .profile-img {
+            float: right;
+            width: 35px;
+            img {
+                width: 35px;
+                height: 35px;
+                border-radius: 50px;
+                @include center(y);
+                position: absolute;
+            }
+
+        }
+    }
+}

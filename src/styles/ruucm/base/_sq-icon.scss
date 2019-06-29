@@ -1,0 +1,127 @@
+.squad-valley {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'squad-valley' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.squad-valley-trophy:before {
+  content: "\e91a";
+}
+.squad-valley-steam:before {
+  content: "\e919";
+}
+.squad-valley-ic-attention:before {
+  content: "\e918";
+  color: #ff595f;
+}
+.squad-valley-ic-kakao .path1:before {
+  content: "\e911";
+  color: rgb(255, 203, 59);
+}
+.squad-valley-ic-kakao .path2:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.squad-valley-ic-writing .path1:before {
+  content: "\e913";
+  color: rgb(117, 115, 154);
+  opacity: 0.5;
+}
+.squad-valley-ic-writing .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.squad-valley-ic-profile-bg-upload:before {
+  content: "\e915";
+  color: #fff;
+}
+.squad-valley-ic-contest-date:before {
+  content: "\e916";
+  color: #75739a;
+}
+.squad-valley-ic-contest-type:before {
+  content: "\e917";
+  color: #75739a;
+}
+.squad-valley-ic-entrys:before {
+  content: "\e910";
+  color: #75739a;
+}
+.squad-valley-handshake-o:before {
+  content: "\e90e";
+  color: #b3b3c7;
+}
+.squad-valley-ic-prize:before {
+  content: "\e90f";
+  color: #b3b3c7;
+}
+.squad-valley-ic-more:before {
+  content: "\e90d";
+}
+.squad-valley-ic-comment:before {
+  content: "\e904";
+  color: #b3b3c7;
+}
+.squad-valley-ic-main-left-arrow:before {
+  content: "\e905";
+  color: #fff;
+}
+.squad-valley-ic-main-rigth-arrow:before {
+  content: "\e906";
+  color: #fff;
+}
+.squad-valley-ic-trophy .path1:before {
+  content: "\e907";
+  color: rgb(255, 209, 92);
+}
+.squad-valley-ic-trophy .path2:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 209, 92);
+}
+.squad-valley-ic-trophy .path3:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(248, 182, 76);
+}
+.squad-valley-ic-trophy .path4:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 209, 92);
+}
+.squad-valley-ic-trophy .path5:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(46, 46, 46);
+}
+.squad-valley-ic-trophy .path6:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 201, 82);
+}
+.squad-valley-search:before {
+  content: "\e903";
+}
+.squad-valley-icon-discord:before {
+  content: "\e900";
+  color: #7289da;
+}
+.squad-valley-icon-fb:before {
+  content: "\e901";
+}
+.squad-valley-logo:before {
+  content: "\e902";
+  color: #fff;
+}

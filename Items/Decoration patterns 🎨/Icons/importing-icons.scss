@@ -1,0 +1,45 @@
+/**
+ *	Icons (Generated Code with https://icomoon.io/app)
+ */
+@font-face {
+  font-family: 'chief-mate';
+  src: url('../../../assets/fonts/chief-mate.eot?55s73y');
+  src: url('../../../assets/fonts/chief-mate.eot?55s73y#iefix')
+      format('embedded-opentype'),
+    url('../../../assets/fonts/chief-mate.ttf?55s73y') format('truetype'),
+    url('../../../assets/fonts/chief-mate.woff?55s73y') format('woff'),
+    url('../../../assets/fonts/chief-mate.svg?55s73y#chief-mate') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.chief-mate {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'chief-mate' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.chief-mate-user:before {
+  content: '\e904';
+}
+.chief-mate-bar-graph:before {
+  content: '\e900';
+}
+.chief-mate-circular-graph:before {
+  content: '\e901';
+}
+.chief-mate-github:before {
+  content: '\e902';
+}
+.chief-mate-menu:before {
+  content: '\e903';
+}
