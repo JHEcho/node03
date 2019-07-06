@@ -4,9 +4,10 @@ import './InfoBanner.scss';
 export default function InfoBannerComponent() {
   return (
     <div className="info-banner">
+      <h1>Mate Test</h1>
       <div className="row grid-default-style">
-      <div className="col-6">column 01</div>
-      <div className="col-6">column 02</div>
+      <div className="background img-1"><p className="textSZ">Text1</p><p>sub text1</p></div>
+      <div className="background img-2"><p className="textSZ">Text2</p><p>subtext2</p></div>
       </div>
     </div>
   );

@@ -1,8 +1,44 @@
 @import '../../styles/base';
 
+
+
 .info-banner {
-}
+    h1{
+        font-size: 30px;
+     }
+    p{
+        font-size: 20px; 
+     }
+    }
 
 .col-6 {
+    font-size: 50px;
+    background: #00ffd4;
+    color: white;
     border-right: 2px solid #fc1472;
+    height: 200px;
+  } 
+
+  .background {
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 150px;
+    padding-top : 20px;
+  }
+
+  .img-1{
+    background-image: url('../../../assets/images/box-color-01.png');
+  }
+
+  
+  .img-2{
+    background-image: url('../../../assets/images/box-color-02.png');
+  }
+
+  .textSZ{
+      font-size : 30px !important;
   }
